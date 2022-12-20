@@ -1,0 +1,88 @@
+@API_URL = http://localhost:3001/authentication 
+
+###
+
+POST http://localhost:3001/authentication/register
+Content-Type: application/json
+
+{
+    "Email":"tubelightboy56@gmail111.com",
+    "Position":0,
+    "FirstName":"dev",
+    "LastName":"Prem",
+    "Standard":1,
+    "Board":"1",
+    "GenderPerference":1,
+    "phno":"6382093752",
+    "Password":"hai",
+    "Address":"vgfjghv",
+    "district":",njhgfjh",
+    "city":"kjfghdhf",
+    "country":"jvghdfx",
+    "state":"mjkgc",
+    "postal_code":641659
+}
+ 
+
+###
+POST {{API_URL}}/register
+Content-Type: application/json
+
+{                           
+    "Name":"online guru",
+    "Position":0,
+    "subject":"Science",
+    "prefer_start_Time":"18:00",
+    "prefer_end_Time":"20:00",
+    "gender":1,
+    "image":"hghjgdghjkjkghjgjhkj",
+    "yearsofexperience":2,
+    "phno":"6382093342",
+    "Email":"onlinegurudev@gmail1.com",
+    "Password":"hai",
+    "Address":"hfg",
+    "district":"kjvjk",
+    "City":"vjhkl",
+    "state":"vhj",
+    "Country":"v;jhv",
+    "postal_code":641659
+}
+
+###
+
+POST {{API_URL}}/login
+Content-Type: application/json
+
+{                           
+    "Email":"student1@gmail.com",
+    "Password":"student1"
+}
+###
+
+POST {{API_URL}}/login
+Content-Type: application/json
+
+{                           
+    "Email":"tubelightboy0056@gmail.com",
+    "Password":"hai"
+}
+
+###
+
+POST {{API_URL}}/login
+Content-Type: application/json
+
+{                           
+    "Email":"onlinegurudev34@gmail.com",
+    "Password":"hai"
+}
+###
+
+POST {{API_URL}}/login
+Content-Type: application/json
+
+{                           
+    "Email":"onlinegurudev3@gmail.com",
+    "Password":")(*&^%$#@!"
+}
+

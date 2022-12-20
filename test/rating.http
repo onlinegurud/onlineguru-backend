@@ -1,0 +1,27 @@
+@API_URL = http://localhost:3001/rating 
+
+}
+###
+
+POST http://localhost:3001/rating/create
+Content-Type: application/json
+
+{                           
+    "id_student":1,
+    "id_teacher":1,
+    "ratings":5,
+    "comments":"Good",
+    "to":1,
+    "id_classes":1
+}
+
+###
+
+POST http://localhost:3001/rating/fetch
+Content-Type: application/json
+
+{                           
+    "position":1,
+    "id":"1",
+    "id_classes":2
+}

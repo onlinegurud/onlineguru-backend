@@ -1,0 +1,56 @@
+@API_URL = http://localhost:3001/balance 
+
+###
+
+POST  http://localhost:3001/balance/fetch/balance
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InR1YmVsaWdodGJveTA1NkBnbWFpbC5jb20iLCJQb3NpdGlvbiI6MCwiaWQiOjEsImlhdCI6MTY0MjY1NDM2NywiZXhwIjoxNjQyNzk4MzY3fQ.4RlPNAgyUhiK18-ekbMN1vawM0-TnCmzITxXMzULqZg
+Content-Type: application/json
+
+{                           
+    
+}
+
+
+###
+
+POST  http://localhost:3001/balance/add/balance
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InR1YmVsaWdodGJveTA1NkBnbWFpbC5jb20iLCJQb3NpdGlvbiI6MCwiaWQiOjEsImlhdCI6MTY0MjY1NDM2NywiZXhwIjoxNjQyNzk4MzY3fQ.4RlPNAgyUhiK18-ekbMN1vawM0-TnCmzITxXMzULqZg
+Content-Type: application/json
+
+{          
+
+    "user_id":2,
+    "balance":100                 
+    
+}
+
+
+
+###
+
+POST  http://localhost:3001/balance/update/balance
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InR1YmVsaWdodGJveTA1NkBnbWFpbC5jb20iLCJQb3NpdGlvbiI6MCwiaWQiOjEsImlhdCI6MTY0MjY1NDM2NywiZXhwIjoxNjQyNzk4MzY3fQ.4RlPNAgyUhiK18-ekbMN1vawM0-TnCmzITxXMzULqZg
+Content-Type: application/json
+
+{          
+
+    "user_id":2,
+    "balance":50                 
+    
+}
+
+
+
+###
+
+POST  http://localhost:3001/balance/fetch/getbyid/balance
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InR1YmVsaWdodGJveTA1NkBnbWFpbC5jb20iLCJQb3NpdGlvbiI6MCwiaWQiOjEsImlhdCI6MTY0MjY1NDM2NywiZXhwIjoxNjQyNzk4MzY3fQ.4RlPNAgyUhiK18-ekbMN1vawM0-TnCmzITxXMzULqZg
+Content-Type: application/json
+
+{          
+
+    "user_id":2
+                    
+    
+}
+

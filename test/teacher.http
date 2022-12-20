@@ -1,0 +1,137 @@
+@API_URL = http://localhost:3001/teacher 
+
+###
+
+POST  http://localhost:3001/teacher/getteacherbyfilter
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InR1YmVsaWdodGJveTA1NkBnbWFpbC5jb20iLCJQb3NpdGlvbiI6MiwiaWQiOjMsImlhdCI6MTY0OTkzODEyMiwiZXhwIjoxNjUwMDgyMTIyfQ.sJxJc5ppkt7LsJcwN_usHjq5nyJJsOgaTHNh4W8LoNw
+Content-Type: application/json
+
+{                           
+    "gender":1,
+    "subject": "Science",
+    "prefer_start_Time": "18:00:00",
+    "prefer_end_Time": "20:00:00",
+    "yearsofexperience":2
+}
+
+###
+
+POST  {{API_URL}}/update/info
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InR1YmVsaWdodGJveTA1NkBnbWFpbC5jb20iLCJQb3NpdGlvbiI6MiwiaWQiOjMsImlhdCI6MTY0OTkzODEyMiwiZXhwIjoxNjUwMDgyMTIyfQ.sJxJc5ppkt7LsJcwN_usHjq5nyJJsOgaTHNh4W8LoNw
+Content-Type: application/json
+
+{                           
+    "Name":"online guru",
+    "subject":"Science",
+    "prefer_start_Time":"18:00",
+    "prefer_end_Time":"20:00",
+    "gender":1,
+    "image":"hghjgdghjkjkghjgjhkj",
+    "yearsofexperience":2,
+    "phno":"6382093352",
+    "Address":"hfg",
+    "district":"kjvjk",
+    "city":"vjhkl",
+    "state":"vhj",
+    "country":"v;jhv",
+    "postal_code":641659
+   
+}
+
+###
+
+POST  {{API_URL}}/class/response
+Content-Type: application/json
+
+{
+    "classid":4,
+    "response":1
+}
+
+###
+
+POST  {{API_URL}}/class/complete/response
+Content-Type: application/json
+
+{
+    "classid":4
+}
+
+
+###
+
+POST  http://localhost:3001/teacher/info
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InRlYWNoZXIxQGdtYWlsLmNvbSIsIlBvc2l0aW9uIjoxLCJpZCI6MSwiaWF0IjoxNjU4NTU4NDk1LCJleHAiOjE2NTg3MDI0OTV9.xXby1ZjLl3vxfJsYRf7hYFXxgBxVqxABL_j8GkD8raY
+Content-Type: application/json
+
+{                           
+    "Email":"teacher1@gmail.com"
+}
+
+
+###
+
+POST  http://localhost:3001/teacher/info/all
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InRlYWNoZXIxQGdtYWlsLmNvbSIsIlBvc2l0aW9uIjoxLCJpZCI6MSwiaWF0IjoxNjU4NTU4NDk1LCJleHAiOjE2NTg3MDI0OTV9.xXby1ZjLl3vxfJsYRf7hYFXxgBxVqxABL_j8GkD8raY
+Content-Type: application/json
+
+{                           
+    
+}
+
+###
+
+
+POST  http://localhost:3001/teacher/class
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InRlYWNoZXIxQGdtYWlsLmNvbSIsIlBvc2l0aW9uIjoxLCJpZCI6MSwiaWF0IjoxNjU3ODA2MzY2LCJleHAiOjE2NTc5NTAzNjZ9.-d9ZsR_HyquOoq1AedVuvUj6oRrdSL5Nmnnr0yc8_VA
+Content-Type: application/json
+
+{                           
+    
+}
+###
+
+POST  http://localhost:3001/teacher/classroom
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InRlYWNoZXIxQGdtYWlsLmNvbSIsIlBvc2l0aW9uIjoxLCJpZCI6MSwiaWF0IjoxNjU3ODA2MzY2LCJleHAiOjE2NTc5NTAzNjZ9.-d9ZsR_HyquOoq1AedVuvUj6oRrdSL5Nmnnr0yc8_VA
+Content-Type: application/json
+
+{                           
+    
+}
+
+
+###
+
+POST  http://localhost:3001/teacher/info/getbyid
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InRlYWNoZXIxQGdtYWlsLmNvbSIsIlBvc2l0aW9uIjoxLCJpZCI6MSwiaWF0IjoxNjU4NTU4NDk1LCJleHAiOjE2NTg3MDI0OTV9.xXby1ZjLl3vxfJsYRf7hYFXxgBxVqxABL_j8GkD8raY
+Content-Type: application/json
+
+{                           
+    "teacher_id":"1"
+}
+
+
+###
+
+POST  http://localhost:3001/teacher/class/update
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InRlYWNoZXIxQGdtYWlsLmNvbSIsIlBvc2l0aW9uIjoxLCJpZCI6MywiaWF0IjoxNjU4OTA5Mjk5LCJleHAiOjE2NTkwNTMyOTl9.pQYejMgFE9HY9ZV-W9QicUmOtsspgEt2TX03Tt-rKw0
+Content-Type: application/json
+
+{                           
+    "classes_id":"1",
+    "Link":"wait"
+}
+
+
+###
+
+POST  http://localhost:3001/teacher/fetch/rating
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InRlYWNoZXIxQGdtYWlsLmNvbSIsIlBvc2l0aW9uIjoxLCJpZCI6MywiaWF0IjoxNjU4OTA5Mjk5LCJleHAiOjE2NTkwNTMyOTl9.pQYejMgFE9HY9ZV-W9QicUmOtsspgEt2TX03Tt-rKw0
+Content-Type: application/json
+
+{                           
+    "id_classes":"1",
+    "id":"3"
+}
+
+

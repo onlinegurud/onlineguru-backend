@@ -1,0 +1,101 @@
+@API_URL = http://localhost:3001/admin 
+
+###
+
+POST http://localhost:3001/admin/register
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImFkbWluMUBnbWFpbC5jb20iLCJQb3NpdGlvbiI6MiwiaWQiOjksImlhdCI6MTY1ODQ2OTc1MCwiZXhwIjoxNjU4NjEzNzUwfQ.4_f6R7xJb1k04wYc1PMnx62qEi1JkijB7c0rDiPewT4
+
+{
+    "Email":"tubelightboy056@gmail.com",
+    "Name":"dev",
+    "phno":"6382093752",
+    "Password":"hai",
+    "Address":"vgfjghv",
+    "district":",njhgfjh",
+    "city":"kjfghdhf",
+    "country":"jvghdfx",
+    "state":"mjkgc",
+    "postal_code":641659
+}
+###
+POST {{API_URL}}/remove/user
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImFkbWluMUBnbWFpbC5jb20iLCJQb3NpdGlvbiI6MiwiaWQiOjksImlhdCI6MTY1ODQ2OTc1MCwiZXhwIjoxNjU4NjEzNzUwfQ.4_f6R7xJb1k04wYc1PMnx62qEi1JkijB7c0rDiPewT4
+
+{
+    "Email":"summa2@gmail.com"
+    
+}
+
+###
+POST {{API_URL}}/update/info
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImFkbWluMUBnbWFpbC5jb20iLCJQb3NpdGlvbiI6MiwiaWQiOjksImlhdCI6MTY1ODQ2OTc1MCwiZXhwIjoxNjU4NjEzNzUwfQ.4_f6R7xJb1k04wYc1PMnx62qEi1JkijB7c0rDiPewT4
+
+{
+    
+    "Name":"dev",
+    "phno":"6382093752",
+    "Password":"hai",
+    "Address":"vgfjghv",
+    "district":",njhgfjh",
+    "city":"kjfghdhf",
+    "country":"jvghdfx",
+    "state":"mjkgc",
+    "postal_code":641659
+}
+
+
+###
+POST {{API_URL}}/info/all
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImFkbWluMUBnbWFpbC5jb20iLCJQb3NpdGlvbiI6MiwiaWQiOjksImlhdCI6MTY1ODQ2OTc1MCwiZXhwIjoxNjU4NjEzNzUwfQ.4_f6R7xJb1k04wYc1PMnx62qEi1JkijB7c0rDiPewT4
+
+{   
+    
+    
+}
+
+
+###
+POST {{API_URL}}/user/info
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImFkbWluMUBnbWFpbC5jb20iLCJQb3NpdGlvbiI6MiwiaWQiOjksImlhdCI6MTY1ODQ2OTc1MCwiZXhwIjoxNjU4NjEzNzUwfQ.4_f6R7xJb1k04wYc1PMnx62qEi1JkijB7c0rDiPewT4
+
+{   
+    "position":0
+}
+
+###
+POST {{API_URL}}/insert/properties
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImFkbWluMUBnbWFpbC5jb20iLCJQb3NpdGlvbiI6MiwiaWQiOjksImlhdCI6MTY1ODQ2OTc1MCwiZXhwIjoxNjU4NjEzNzUwfQ.4_f6R7xJb1k04wYc1PMnx62qEi1JkijB7c0rDiPewT4
+
+{
+    "demo_time":5,
+    "session_time":45,
+    "creditsperrupee":50   
+}
+
+###
+POST {{API_URL}}/insert/price
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6Im9ubGluZWd1cnVkZXYzQGdtYWlsLmNvbSIsIlBvc2l0aW9uIjozLCJpZCI6MSwiaWF0IjoxNjQ1NDU4MDIwLCJleHAiOjE2NDU2MDIwMjB9.XAajaxYqpttFsqw8pWGjC_i6-6wXKZKd-znKeZCbVB8
+
+{
+    "standard":1,
+    "board":1,
+    "credits":3000,
+    "discounts":0   
+}
+
+###
+
+POST {{API_URL}}/info
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6ImFkbWluMUBnbWFpbC5jb20iLCJQb3NpdGlvbiI6MiwiaWQiOjksImlhdCI6MTY1ODQ2OTc1MCwiZXhwIjoxNjU4NjEzNzUwfQ.4_f6R7xJb1k04wYc1PMnx62qEi1JkijB7c0rDiPewT4
+
+{   
+    
+}
