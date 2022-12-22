@@ -37,6 +37,21 @@ app.listen( process.env.PORT || 3001, () => {
   console.log("[+] Server listening");
 });
 
+
+
+const check_alive=()=>{
+
+  db.ping((err) => {
+    if(err) console.log("MySQL Server is Down");
+      
+    console.log("MySQL Server is Active");
+  })
+  
+  setTimeout(check_alive, 900000);
+}
+
+check_alive();
+
 /////Todo: allowing after checking status
 /////TODO: update each profile
 /////todo:retrieving class
